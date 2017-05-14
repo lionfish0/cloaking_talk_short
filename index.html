@@ -161,28 +161,23 @@ of $f$, function $\tilde{f}$ is $(\varepsilon, \delta)$-differentially private b
 
 <section data-background="assets/pres_bg_bb_inv.png" style="color:black;">
     <h3 style="color:black;">Cloaking</h3>
-    <p>Dealing with $d$ elsewhere and setting $\Delta = 1$ (thus $0 \leq \mathbf{c}_i^\top M^{-1} \mathbf{c}_i \leq 1$) and minimise $\log |M|$ (minimises the partial entropy).</p>
+    <p>Dealing with $d$ elsewhere and setting $\Delta = 1$ (thus $0 \leq \mathbf{c}_i^\top M^{-1} \mathbf{c}_i \leq 1$) and minimise $\log |M|$ <br/>(minimises the partial entropy).</p>
     <p>Using lagrange multipliers and gradient descent, we find</p>
     <p>$M = \sum_i{\lambda_i \mathbf{c}_i \mathbf{c}_i^\top}$</p>
 </section>
 
-<section data-background="assets/pres_bg_bb_inv.png" style="color:black;">
-    <h3 style="color:black;">Cloaking: Results</h3>
-    <p>The noise added by this method is now practical.</p>
-    <img src="assets/kung_cloaking_simple.png" width="100%" style="margin:0px; border:none;" />
-    <p><small>EQ kernel, $l = 25$ years, $\Delta=100$cm, $\varepsilon=1$</small></p>
-</section>
 
 <section data-background="assets/pres_bg_bb_inv.png" style="color:black;">
     <h3 style="color:black;">Cloaking: Results</h3>
-    <p>It also has some interesting features;</p>
+    <p>Noise is now practical, and has interesting features;</p>
     <ul>
     <li>Less noise where data is concentrated</li>
     <li>Least noise far from any data</li>
     <li>Most noise just outside data</li>
     </ul>
     <p></p>
-    <img src="assets/kung_cloaking_simple.png" width="100%" style="margin:0px; border:none;" />
+    <img src="assets/kung_cloaking_simple.png" width="80%" style="margin:-10px; border:none;" />
+    <p><small>EQ kernel, $l = 25$ years, $\Delta=100$cm, $\varepsilon=1$</small></p>
 </section>
 
 <section data-background="assets/pres_bg_bb_inv.png" style="color:black;">
